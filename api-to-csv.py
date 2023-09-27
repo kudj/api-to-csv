@@ -12,7 +12,7 @@ logging.basicConfig(filename='api-to-csv.log', encoding='utf-8', format='%(ascti
 output_filename = 'data.csv'
 
 
-with open(output_filename, 'a', newline='') as csv_file:
+with open(output_filename, 'w', newline='') as csv_file:
 
     limit = 500
     offset = 0
